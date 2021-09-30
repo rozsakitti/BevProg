@@ -21,16 +21,16 @@ cout << "\nHave you seen " << friend_name << " lately?\n" << endl;
    	 
 char friend_sex;
 	cout << "Enter an 'm' if your friend is male and an 'f' if your friend is female!\n" << endl;
-		cin >> friend_sex;
+	cin >> friend_sex;
 		
 	if(friend_sex=='m') 
-		cout << "If you see " << friend_name << " please ask him to call me." << endl;
+	cout << "If you see " << friend_name << " please ask him to call me." << endl;
 	else if(friend_sex=='f')
-		cout << "If you see " << friend_name << " please ask her to call me." << endl;
+	cout << "If you see " << friend_name << " please ask her to call me." << endl;
  
  cout << "Please enter the age of the recipient!" << endl;
- int age;
- cin >> age;
+ 	int age;
+ 	cin >> age;
 	if(age <= 0 || age >= 110)
 	simple_error("you're kidding!");
 	
